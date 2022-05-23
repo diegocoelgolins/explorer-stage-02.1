@@ -2,29 +2,94 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  text-decoration: none;
+  font-family: 'Mulish', sans-serif;
 }
 
 .page {
   width: 1005px;
-  margin: 0 auto;
+  margin: 40px auto 0;
 }
 
-header {
-  align-items: center;
+nav {
   display: flex;
   justify-content: space-between;
-  margin-top: 55px;
+  align-items: center;
+  margin-bottom: 70px;
 }
 
-nav ul li {
-  display: inline;
-  width: 267px;
+ul {
+  display: flex;
+  gap: 48px;
+  color: #7D7987;
 }
 
-li+li {
-  margin-left: 15px;
+ul li a:hover {
+  font-weight: bold;
 }
 
-section {}
+h1 {
+  width: 489px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-size: 49px;
+  font-weight: 400;
+}
 
-img .fitness {}
+span {
+  font-weight: 700;
+  color: #89c5cc;
+}
+
+p {
+  margin-bottom: 40px;
+  color: #7D7987;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+main {
+  display: flex;
+}
+
+section {
+  margin-right: 102px;
+}
+
+button {
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 16px;
+  color: #fff;
+  background: #69B99D;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 400ms;
+}
+
+button:hover {
+  background: #32755e;
+}
+
+footer {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+footer a {
+  font-weight: 700;
+  color: #000;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
